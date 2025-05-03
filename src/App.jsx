@@ -54,7 +54,7 @@ const App = () => {
           </p>
         </div>
 
-        <p className="flex justify-center mt-4">
+        <p className="flex justify-center mt-4 gap-8">
           <button
             type="reset"
             className="bg-zinc-700 rounded text-white w-20 h-8"
