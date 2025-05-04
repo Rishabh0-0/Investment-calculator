@@ -20,11 +20,13 @@ const Forms = ({ onCalculate }) => {
   };
 
   const inputChangeHandler = (input, e) => {
-    const value = e.target.value;
+    const value = +e.target.value;
     setUserInput((prevInput) => {
       return { ...prevInput, [input]: value };
     });
   };
+
+  console.log(userInput);
 
   return (
     <form onSubmit={submitHandler} className="bg-amber-600 p-6 rounded-sm">
